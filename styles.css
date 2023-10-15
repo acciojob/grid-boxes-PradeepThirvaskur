@@ -9,7 +9,7 @@
 .t{
 	background-color: green;
 	color:white;
-	padding:10px 10px 15px ;
+	padding:10px 10px 15px 0px;
 }
 .item1{
 	grid-column-start: 1;
