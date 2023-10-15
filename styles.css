@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */
+#grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 4px;
+  padding: 10px;
+}
+.t{
+	background-color: green;
+	color:white;
+	padding:10px 10px 15px ;
+}
+.item1{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	background-color: green;
+}
+.item2{
+	grid-row-start: 2;
+	grid-row-end: 6;
+	background-color: green;
+}
+.item4{
+	grid-column-start: 3;
+	grid-column-end: 5;
+	background-color: green;
+}
+.item5{
+	grid-column-start: 2;
+	grid-column-end: 4;
+	background-color: green;
+}
+.item10{
+	grid-column-start: 2;
+	grid-column-end: 5;
+	background-color: green;
